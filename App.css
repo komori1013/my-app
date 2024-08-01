@@ -1,0 +1,232 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.Button {
+  padding: 20px;
+}
+.vr {
+border: 1px;
+height: 200px;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 50vh;
+}
+
+.border {
+border: solid,black,1px;
+}
+.divider {
+  display: inline-block;
+  border-left: 1px solid #38546d;
+  border-right: 1px solid #16222c;
+  height: 100%;
+}
+  
+  .vertical-line {
+    width: 1px; /* 線の幅 */
+    height: 80%; /* 線の長さ */
+    background-color: black; /* 線の色 */
+  }
+
+  .rightbottom {
+    text-align: right;
+    align-items: flex-end;
+    width: 50;
+    height: 50;
+}
+
+ .header {
+  color: white;
+  font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: darkgray;
+  }
+
+  .overlay {
+      position:fixed;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background-color:rgba(0,0,0,0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .content{
+    z-index:2;
+    width:50%;
+    padding: 1em;
+    background:#fff;
+  }
+
+  .container {
+    border: solid,black,1px;
+    font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    display: flex;
+  }
+
+  .left-container{
+    border: solid,black,1px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .right-container{
+    border: solid,black,1px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .right-high-container{
+    flex: 1;
+    display: flex;
+    flex-direction: row; 
+  }
+
+  .right-row-container{
+    flex: 1;
+    display: flex;
+    flex-direction: row; 
+  }
+
+  .box1{
+    flex: 1;
+  }
+
+  .box2{
+    flex: 1;
+  }
+
+  .box3{
+    flex: 1;
+  }
+
+  .box4{
+    flex: 1;
+  }
+
+  .button {
+    border: NONE; /* 枠線をなくす */
+    border-radius: 5px; /* 角丸をつける */
+    padding: 10px 15px; /* ボタンの内側の余白 */
+    margin: 5px; /* ボタン同士の余白 */
+    background-color: darkgray; /* ボタンの背景色 */
+    color: white; /* ボタンの文字色 */
+    text-align: center; /* ボタンのテキストを中央揃えにする */
+    text-decoration: none; /* テキストに下線をつけない */
+    font-size: 15px; /* テキストのフォントサイズ */
+    cursor: pointer; /* マウスポインタを変更する */
+    height: 10%;
+  }
+  .App {
+    text-align: center;
+  }
+  
+  input {
+    margin: 0.5em;
+  }
+  
+  .button2 {
+    margin: 0.5em;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.5em 0;
+  }
+  .margin {
+    margin: 0.2em;
+  }
+
+  .table {
+    table-layout: fixed;
+    border: 1;
+    width: 100%;
+  }
+
+  .time-width {
+    width: 10%;
+  }
+
+
+  .todo-width {
+    width: 90%;
+  }
